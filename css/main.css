@@ -15,7 +15,7 @@ main .row{
 main .row .col{
     width: 100%;
     padding: 1.875rem 1.875rem 0rem 1.875rem ;
-    text-align: center;
+    
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     background-color: var(--header-second-color);
@@ -54,10 +54,11 @@ TIRD MAIN SECTION
 .tird-section img{
     border-radius: 100%;
     width: 200px;
-    height: 200px;
-    
-   
+    height: 200px; 
 }
+/* =======
+FOURTH MAIN SECTION
+========= */
 
 /*========
 QUERY MAIN
@@ -68,7 +69,7 @@ FIRST MAIN SECTION QUERY
 ========== */
 
 @media screen and (min-width:768px){
-    main .row .col{
+    main .first-section .row .col{
         width: calc(100% / 3 - 1.25rem);
         
     }
@@ -81,10 +82,10 @@ FIRST MAIN SECTION QUERY
 }
 
 @media screen and (min-width:992px){
-    main .row .col div:first-child{
+    main .first-section .row .col div:first-child{
         width: 50%;  
     }
-    main .row .col{
+    main .first-section .row .col{
      display: flex;
     }
     .first-section img{
@@ -126,3 +127,21 @@ TIRD MAIN SECTION QUERY
         align-items: center;
     }
 }
+/* =======
+FOURTH MAIN SECTION QUERY
+========= */
+
+@media screen and (min-width:768px){
+    main .fourth-session .col{
+        width: calc(100% / 2 - 1.25rem);
+    }
+}
+@media screen and (min-width:992px) {
+       main .fourth-session .col{
+        width: calc(100% / 3 - 1.25rem);
+       }
+}
+
+/* =======
+FIFTH MAIN SECTION QUERY
+========= */
