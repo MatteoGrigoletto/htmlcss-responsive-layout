@@ -11,7 +11,10 @@ CONTAINER'
 /* ========
 REGOLE FLEX
 ======== */
-
+.flex{
+    display: flex;
+    
+}
 .flex-space-b{
     justify-content: space-between;
 }

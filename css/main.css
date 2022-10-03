@@ -45,7 +45,19 @@ SECOND MAIN SECTION
     color: var(--text-color-banner);
     text-align: center;
 } 
-
+/* =======
+TIRD MAIN SECTION
+========= */
+.tird-section .col{
+  
+}
+.tird-section img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    
+   
+}
 
 /*========
 QUERY MAIN
@@ -60,7 +72,7 @@ FIRST MAIN SECTION QUERY
         width: calc(100% / 3 - 1.25rem);
         
     }
-    main .row .col:first-child{
+    main .first-section .row .col:first-child{
         width: calc((100% / 3) * 2 - 1.25rem);     
     }
     .first-section img{
@@ -91,5 +103,26 @@ SECOND MAIN SECTION QUERY
     .second-section .col{
         width: 50%; 
         
+    }
+}
+
+/*========
+TIRD MAIN SECTION QUERY
+========== */
+@media screen and (max-width:767px){
+    .tird-section .col{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:768px){
+    main .tird-section .col{
+        width: 100%; 
+    }
+    main .tird-section .col:not(:first-child){
+        display: flex;
+        align-items: center;
     }
 }
