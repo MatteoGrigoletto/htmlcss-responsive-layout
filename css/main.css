@@ -84,8 +84,8 @@ TIRD MAIN SECTION
 }
 .tird-section img{
     border-radius: 100%;
-    width: 200px;
-    height: 200px; 
+    width: 12.5rem;
+    height: 12.5rem; 
 }
 .tird-section p{
     padding-bottom: 1.875rem;
@@ -123,10 +123,45 @@ fourth section button and color
 /* =======
 FIFTH MAIN SECTION
 ========= */
-.fifth-section .col, .sixth-section .col, footer p{
-    text-align: center;
+
+.fifth-section .relative {
+    position: relative;
+    width: 40%;
+}
+.fifth-section img{
+    border-radius: 100%;
+    width: 12.5rem;
+    height: 12.5rem;
+}
+.fifth-section .relative i{
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    right: 0;
+}
+.fifth-section .col {
+    padding-bottom: 1.875rem;
 }
 
+/* =======
+fifth section button and color
+==========*/
+.fifth-section button{
+    background-color:var(--main-first-color);
+    color: var(--text-color);      
+}
+
+/* ========
+SIXTH MAIN SECTION 
+========== */
+
+/* ==========
+sixth section button and color
+========== */
+
+.sixth-section{
+    background-color: var(--main-first-color);
+}
 /*========
 QUERY MAIN
 ========== */
@@ -226,5 +261,11 @@ FIFTH MAIN SECTION QUERY
     }
     .col-40{
         width:  calc(40%  - 1.25rem);
+    }
+}
+@media screen and (min-width:992px){
+    .fifth-section .col-40{
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 }

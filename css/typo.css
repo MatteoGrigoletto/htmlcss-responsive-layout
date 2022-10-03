@@ -44,7 +44,7 @@
     }
    
     /*=======
-    fourth section 
+    FOURTH SECTION
     ====== */
 
     .fourth-section h2{
@@ -60,3 +60,19 @@
         color: var(--main-first-color);
         font-size: 1.7rem;
     }
+
+    /*=======
+    FIFTH SECTION
+    ========  */
+
+    .fifth-section h2{
+        color: var(--main-first-color);
+        font-size: 2rem;
+    }
+    .fifth-section .col-40 p{
+        color: var(--main-first-color);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+
