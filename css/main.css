@@ -65,7 +65,7 @@ FOURTH MAIN SECTION
 /* =======
 FIFTH MAIN SECTION
 ========= */
-.fifth-section .col{
+.fifth-section .col, .sixth-section .col, footer p{
     text-align: center;
 }
 
