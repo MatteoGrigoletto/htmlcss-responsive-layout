@@ -1,0 +1,42 @@
+/* =====
+MAIN
+====== */
+
+main{
+    padding-top: 7.5rem;
+}
+main .row{
+    width: 100%;
+}
+main .row .col{
+    width: 100%;
+    padding: 1.875rem 1.875rem 0rem 1.875rem ;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    background-color: var(--header-second-color);
+    border-radius: 1.25rem;
+    
+}
+main .row .col > *:not(:last-child){
+    padding-bottom: 1.25rem;
+}
+
+/*========
+QUERY MAIN
+========== */
+
+/*========
+FIRST MAIN SECTION
+========== */
+
+@media screen and (min-width:768px){
+    main .row .col{
+        width: calc(100% / 3 - 1.25rem);
+        
+    }
+    main .row .col:first-child{
+        width: calc((100% / 3) * 2 - 1.25rem);
+      
+    }
+}

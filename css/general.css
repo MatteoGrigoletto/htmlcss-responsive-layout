@@ -26,10 +26,16 @@ REGOLE FLEX
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .col{
-    
+    margin: .625rem;
 }
+img{
+    width: 100%;
+    display: block;
+}
+
 
 /* =======
 BUTTONS
