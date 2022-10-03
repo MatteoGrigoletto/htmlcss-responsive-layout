@@ -9,28 +9,59 @@ FIRST MAIN SECTION
 main{
     padding-top: 7.5rem;
 }
-main .first-section .row{
+main section{
+    padding-bottom: 3rem;
+}
+.first-section .row{
     width: 100%;
 }
-main .row .col{
+main .col{
     padding: 1.875rem 1.875rem 0rem 1.875rem ;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    background-color: var(--header-second-color);
-    border-radius: 1.25rem;
-    
+    border-radius: 2rem;
 }
 main .row .col > *:not(:last-child){
     padding-bottom: 1.25rem;
 }
 main .first-section .col{
     width: 100%;
+    text-align: center;
+}
+.first-section .col div:first-child> * {
+    padding-bottom: 1.875rem ;
+}
+/* =====
+button first section and color col
+======== */
+.first-section button{
+    font-size: 1.875rem;
+    padding: .625rem 6.25rem .625rem 6.25rem;
+    background-color: var(--header-first-color);
+    color: var(--text-color);
+    border: none;
+    font-weight: bold;
+}
+.first-section .col{
+    background-color: var(--header-second-color);
 }
 
 /* =======
 SECOND MAIN SECTION
 ========= */
+.second-section .col > *{
+    padding-bottom: 1rem;
+}
 
+/* =======
+button second-section and color
+======= */
+.second-section button{
+    background-color: var(--main-first-color);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 100%;
+}
 .second-section{
     background-color: var(--main-first-color);
     color: var(--text-color);
@@ -39,24 +70,35 @@ SECOND MAIN SECTION
     background-color: var(--background-color-banner);
     border-radius: 1.2rem;
 }
-.second-section .col, .second-section .col > *{
-    padding-bottom: 3.125rem;
-}
 .second-section .col:last-child{
     color: var(--text-color-banner);
     text-align: center;
 } 
+
 /* =======
 TIRD MAIN SECTION
 ========= */
-.tird-section .col{
-  
+.tird-section .col > *{
+    width: 100%;
+    text-align: center;
 }
 .tird-section img{
     border-radius: 100%;
     width: 200px;
     height: 200px; 
 }
+.tird-section p{
+    padding-bottom: 1.875rem;
+}
+/* ======
+Tird section color
+========== */
+.tird-section .col:not(:first-child){
+    background-color: var(--main-first-color);
+    color: var(--text-color);
+}
+
+
 /* =======
 FOURTH MAIN SECTION
 ========= */
@@ -91,7 +133,7 @@ FIRST MAIN SECTION QUERY
 }
 
 @media screen and (min-width:992px){
-    main .first-section .row .col div:first-child{
+   .first-section .col:first-child{
         width: 50%;  
     }
     main .first-section .row .col{
@@ -108,11 +150,17 @@ SECOND MAIN SECTION QUERY
 @media screen and (min-width:992px){
     .second-section .container {
         display: flex;
-        align-items: flex-end;
+        
     }
     .second-section .col{
         width: 50%; 
-        
+        align-self: flex-end;
+    }
+    .second-section .col-left div:first-child{
+        padding-bottom: 20rem; 
+    }
+    .second-section .col-right{
+        padding: 3rem ;
     }
 }
 
@@ -122,7 +170,7 @@ TIRD MAIN SECTION QUERY
 @media screen and (max-width:767px){
     .tird-section .col{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
     }
 }
@@ -134,6 +182,7 @@ TIRD MAIN SECTION QUERY
     main .tird-section .col:not(:first-child){
         display: flex;
         align-items: center;
+        justify-content: flex-start;
     }
 }
 /* =======

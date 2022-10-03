@@ -1,0 +1,45 @@
+/* ========
+    FIRST SECTION
+    ========= */
+
+    .first-section h3{
+        color: var(--header-first-color);
+        font-size: 2rem;
+    }
+    .first-section p{
+        font-size: 2rem;
+    }
+    .first-section .big-icon{
+       font-size: 6.25rem;
+       color: var(--header-first-color);
+    }
+
+    /*===========
+    SECOND SECTION 
+    ========*/
+
+    .second-section h2{
+        font-size: 3.75rem;
+    }
+    .second-section p{
+        font-size: 1.1rem;
+    }
+    .second-section h3{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .second-section p{
+        font-size: 1.2rem;
+    }
+
+     /*===========
+    TIRD SECTION 
+    ========*/
+    .tird-section h6{
+        font-size: 1rem;
+    }
+    .tird-section h3{
+        font-size: 3rem;
+        color: var(--main-first-color);
+    }
+   
