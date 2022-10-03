@@ -1,0 +1,31 @@
+header{
+    position: fixed;
+    background-color: var(--header-first-color);
+    width: 100vw;
+    padding: .9375rem 0rem 1.575rem 0rem;
+    z-index: 50;
+}
+.icon{
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
+nav{
+    display: none;
+}
+.list li{
+    padding: .625rem;
+    color: var(--text-color);
+}
+
+/*=======
+MEDIA QUERY HEADER
+========== */
+
+@media screen and (min-width: 992px){
+    .icon{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+}

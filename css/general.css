@@ -1,0 +1,40 @@
+/* ======
+CONTAINER'
+========= */
+
+.container{
+    max-width: 75rem;
+    margin: auto;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+/* ========
+REGOLE FLEX
+======== */
+
+.flex-space-b{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.col{
+    
+}
+
+/* =======
+BUTTONS
+========= */
+ button{
+    padding: .625rem;
+    border-radius: 1.25rem;
+ }

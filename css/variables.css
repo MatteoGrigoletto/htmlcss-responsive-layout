@@ -1,0 +1,15 @@
+/* =======
+VARIABILI COLORI
+============ */
+
+:root{
+    --header-first-color: #0084fd;
+    --header-second-color: #b5ddff;
+    --main-first-color: #9792e4;
+    --main-motive-color: #fdc15f;
+    --footer-first-color: #333333;
+    --footer-link-color: #6d6a9a;
+    --icon-color: white;
+    --text-color:white;
+    
+}
