@@ -43,3 +43,20 @@
         color: var(--main-first-color);
     }
    
+    /*=======
+    fourth section 
+    ====== */
+
+    .fourth-section h2{
+        color: var(--text-color);
+        font-size: 3rem;
+        text-align: center;
+    }
+    .fourth-section h3{
+        color: var(--main-first-color);
+        font-size: 2.5rem;
+    }
+    .fourth-section h4{
+        color: var(--main-first-color);
+        font-size: 1.7rem;
+    }

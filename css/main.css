@@ -103,6 +103,22 @@ Tird section color
 FOURTH MAIN SECTION
 ========= */
 
+/* =======
+fourth section button and color
+========= */
+ .fourth-section{
+    background-color: var(--main-first-color);
+ }
+ .fourth-section .col{
+    background-color: var(--background-color-banner);
+    padding: 2rem;
+ }
+ .fourth-section button{
+    background-color: var(--main-first-color);
+    color: var(--text-color);
+    padding: .625rem 2.5rem .625rem 2.5rem;
+ }
+
 
 /* =======
 FIFTH MAIN SECTION
@@ -190,12 +206,12 @@ FOURTH MAIN SECTION QUERY
 ========= */
 
 @media screen and (min-width:768px){
-    main .fourth-session .col{
+    main .fourth-section .col{
         width: calc(100% / 2 - 1.25rem);
     }
 }
 @media screen and (min-width:992px) {
-       main .fourth-session .col{
+       main .fourth-section .col{
         width: calc(100% / 3 - 1.25rem);
        }
 }
