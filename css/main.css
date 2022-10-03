@@ -2,6 +2,10 @@
 MAIN
 ====== */
 
+
+/* =======
+FIRST MAIN SECTION
+======== */
 main{
     padding-top: 7.5rem;
 }
@@ -22,12 +26,33 @@ main .row .col > *:not(:last-child){
     padding-bottom: 1.25rem;
 }
 
+/* =======
+SECOND MAIN SECTION
+========= */
+
+.second-section{
+    background-color: var(--main-first-color);
+    color: var(--text-color);
+}
+.second-section .col:last-child{
+    background-color: var(--background-color-banner);
+    border-radius: 1.2rem;
+}
+.second-section .col, .second-section .col > *{
+    padding-bottom: 3.125rem;
+}
+.second-section .col:last-child{
+    color: var(--text-color-banner);
+    text-align: center;
+} 
+
+
 /*========
 QUERY MAIN
 ========== */
 
 /*========
-FIRST MAIN SECTION
+FIRST MAIN SECTION QUERY
 ========== */
 
 @media screen and (min-width:768px){
@@ -36,7 +61,35 @@ FIRST MAIN SECTION
         
     }
     main .row .col:first-child{
-        width: calc((100% / 3) * 2 - 1.25rem);
-      
+        width: calc((100% / 3) * 2 - 1.25rem);     
+    }
+    .first-section img{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px){
+    main .row .col div:first-child{
+        width: 50%;  
+    }
+    main .row .col{
+     display: flex;
+    }
+    .first-section img{
+        width: 100%;
+    }
+}
+
+/*========
+SECOND MAIN SECTION QUERY
+========== */
+@media screen and (min-width:992px){
+    .second-section .container {
+        display: flex;
+        align-items: flex-end;
+    }
+    .second-section .col{
+        width: 50%; 
+        
     }
 }

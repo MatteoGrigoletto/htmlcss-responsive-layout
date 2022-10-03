@@ -29,11 +29,15 @@ REGOLE FLEX
     flex-wrap: wrap;
 }
 .col{
-    margin: .625rem;
+    margin-left: .625rem;
+    margin-right: .625rem;
 }
 img{
     width: 100%;
     display: block;
+}
+section:not(:first-child){
+    padding-top: 3.75rem;
 }
 
 
