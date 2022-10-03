@@ -9,13 +9,11 @@ FIRST MAIN SECTION
 main{
     padding-top: 7.5rem;
 }
-main .row{
+main .first-section .row{
     width: 100%;
 }
 main .row .col{
-    width: 100%;
     padding: 1.875rem 1.875rem 0rem 1.875rem ;
-    
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     background-color: var(--header-second-color);
@@ -24,6 +22,9 @@ main .row .col{
 }
 main .row .col > *:not(:last-child){
     padding-bottom: 1.25rem;
+}
+main .first-section .col{
+    width: 100%;
 }
 
 /* =======
@@ -59,6 +60,14 @@ TIRD MAIN SECTION
 /* =======
 FOURTH MAIN SECTION
 ========= */
+
+
+/* =======
+FIFTH MAIN SECTION
+========= */
+.fifth-section .col{
+    text-align: center;
+}
 
 /*========
 QUERY MAIN
@@ -145,3 +154,12 @@ FOURTH MAIN SECTION QUERY
 /* =======
 FIFTH MAIN SECTION QUERY
 ========= */
+
+@media screen and (min-width:768px){
+    .col-60{
+        width: calc(60% - 1.25rem);
+    }
+    .col-40{
+        width:  calc(40%  - 1.25rem);
+    }
+}

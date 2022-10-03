@@ -13,7 +13,7 @@ REGOLE FLEX
 ======== */
 .flex{
     display: flex;
-    
+
 }
 .flex-space-b{
     justify-content: space-between;
@@ -42,7 +42,6 @@ img{
 section:not(:first-child){
     padding-top: 3.75rem;
 }
-
 
 /* =======
 BUTTONS
