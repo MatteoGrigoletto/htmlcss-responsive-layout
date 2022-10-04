@@ -17,15 +17,3 @@ header nav{
     color: var(--text-color);
 }
 
-/*=======
-MEDIA QUERY HEADER
-========== */
-
-@media screen and (min-width: 992px){
-    .icon{
-        display: none;
-    }
-    header nav{
-        display: block;
-    }
-}

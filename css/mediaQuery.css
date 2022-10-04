@@ -1,0 +1,131 @@
+/*=======
+MEDIA QUERY HEADER
+========== */
+
+@media screen and (min-width: 992px){
+    .icon{
+        display: none;
+    }
+    header nav{
+        display: block;
+    }
+}
+
+/*========
+QUERY MAIN
+========== */
+
+/*========
+FIRST MAIN SECTION QUERY
+========== */
+
+@media screen and (min-width:768px){
+    main .first-section .row .col{
+        width: calc(100% / 3 - 1.25rem); 
+    }
+    main .first-section .row .col:first-child{
+        width: calc((100% / 3) * 2 - 1.25rem);     
+    }
+    .first-section img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px){
+   
+    main .first-section .row .col{
+     display: flex;
+    }
+    .phone{
+        align-self: flex-end;
+    }
+    .first-section .col-split div{
+        width: 100%;
+    }
+}
+
+/*========
+SECOND MAIN SECTION QUERY
+========== */
+@media screen and (min-width:992px){
+    .second-section .container {
+        display: flex;
+        
+    }
+    .second-section .col{
+        width: 50%; 
+        align-self: flex-end;
+    }
+    .second-section .col-left div:first-child{
+        padding-bottom: 20rem; 
+    }
+    .second-section .col-right{
+        padding: 3rem ;
+    }
+}
+
+/*========
+TIRD MAIN SECTION QUERY
+========== */
+@media screen and (max-width:767px){
+    .tird-section .col{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    main .tird-section .col{
+        width: 100%; 
+    }
+    main .tird-section .col:not(:first-child){
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .tird-section .col-img{
+        width: 30%;
+    }
+    .tird-section .col-text{
+        width: 70%;
+    }
+}
+/* =======
+FOURTH MAIN SECTION QUERY
+========= */
+
+@media screen and (min-width:768px){
+    main .fourth-section .col{
+        width: calc(100% / 2 - 1.25rem);
+    }
+}
+@media screen and (min-width:992px) {
+       main .fourth-section .col{
+        width: calc(100% / 3 - 1.25rem);
+       }
+}
+
+/* =======
+FIFTH MAIN SECTION QUERY
+========= */
+
+@media screen and (min-width:768px){
+    .col-60{
+        width: calc(60% - 1.25rem);
+    }
+    .col-40{
+        width:  calc(40%  - 1.25rem);
+    }
+}
+@media screen and (min-width:992px){
+    .fifth-section .col-40{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* =======
+SIXTH MAIN SECTION QUERY
+========= */
