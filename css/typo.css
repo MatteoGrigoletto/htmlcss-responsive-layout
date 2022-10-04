@@ -8,9 +8,10 @@
     .first-section h3{
         color: var(--header-first-color);
         font-size: 2rem;
+        font-weight: bold;
     }
     .first-section p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .first-section .big-icon{
        font-size: 6.25rem;

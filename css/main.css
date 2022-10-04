@@ -88,12 +88,6 @@ TIRD MAIN SECTION
     width: 100%;
     text-align: center;
 }
-.tird-section img{
-    border-radius: 100%;
-    width: 12.5rem;
-    height: 12.5rem; 
-    object-fit: cover;
-}
 .tird-section p{
     padding-bottom: 1.875rem;
 }
@@ -133,12 +127,7 @@ fourth section button and color
 /* =======
 FIFTH MAIN SECTION
 ========= */
-.fifth-section img{
-    border-radius: 100%;
-    width: 12.5rem;
-    height: 12.5rem;
-    object-fit: cover;
-}
+
 .fifth-section .col {
     padding-bottom: 1.875rem;
 }

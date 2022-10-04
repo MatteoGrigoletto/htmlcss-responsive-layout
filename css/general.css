@@ -50,6 +50,15 @@ section:not(:first-child){
     padding-top: 3.75rem;
 }
 
+/* ========
+IMG
+=========== */
+.circle-img{
+    border-radius: 100%;
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+}
 
 /* =======
 BUTTONS
