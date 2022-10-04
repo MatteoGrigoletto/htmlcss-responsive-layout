@@ -8,6 +8,12 @@ CONTAINER'
     padding-left: 1.3rem;
     padding-right: 1.3rem;
 }
+.container-small{
+    max-width: 40rem;
+    margin: auto;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
 /* ========
 REGOLE FLEX
 ======== */
@@ -23,9 +29,12 @@ REGOLE FLEX
 }
 .list{
     display: flex;
-    text-decoration: none;
     list-style-type: none;
     align-items: center;
+}
+.list a{
+    text-decoration: none;
+    color: var(--text-color);
 }
 .row{
     display: flex;

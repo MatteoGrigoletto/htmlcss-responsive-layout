@@ -9,7 +9,7 @@ header{
     font-size: 1.25rem;
     color: var(--text-color);
 }
-nav{
+header nav{
     display: none;
 }
 .list li{
@@ -25,7 +25,7 @@ MEDIA QUERY HEADER
     .icon{
         display: none;
     }
-    nav{
+    header nav{
         display: block;
     }
 }

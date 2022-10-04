@@ -22,7 +22,7 @@ main .col{
     border-radius: 2rem;
 }
 main .row .col > *:not(:last-child){
-    padding-bottom: 1.25rem;
+    padding-bottom: 2rem;
 }
 main .first-section .col{
     width: 100%;
@@ -154,7 +154,13 @@ fifth section button and color
 /* ========
 SIXTH MAIN SECTION 
 ========== */
+.sixth-section .col{
+    text-align: center;
+}
 
+.sixth-section .list{
+    justify-content: center;
+}
 /* ==========
 sixth section button and color
 ========== */
@@ -162,6 +168,32 @@ sixth section button and color
 .sixth-section{
     background-color: var(--main-first-color);
 }
+.sixth-section button{
+    color: var(--main-first-color);
+    padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+/* =========
+SEVENTH SECTION
+========== */
+
+.seventh-section .col{
+    width: 100%;
+    padding: 2rem 0rem 2rem 0rem ;
+    text-align: center;
+}
+.seventh-section p{
+    text-align: center;
+}
+
+/* ======
+seventh section color
+======== */
+
+.seventh-section a{
+    color: var(--footer-link-color);
+}
+
 /*========
 QUERY MAIN
 ========== */
@@ -172,25 +204,25 @@ FIRST MAIN SECTION QUERY
 
 @media screen and (min-width:768px){
     main .first-section .row .col{
-        width: calc(100% / 3 - 1.25rem);
-        
+        width: calc(100% / 3 - 1.25rem); 
     }
     main .first-section .row .col:first-child{
         width: calc((100% / 3) * 2 - 1.25rem);     
     }
     .first-section img{
-        width: 50%;
+        width: 100%;
     }
 }
 
 @media screen and (min-width:992px){
-   .first-section .col:first-child{
-        width: 50%;  
-    }
+   
     main .first-section .row .col{
      display: flex;
     }
-    .first-section img{
+    .phone{
+        align-self: flex-end;
+    }
+    .first-section .col-split div{
         width: 100%;
     }
 }
@@ -224,6 +256,7 @@ TIRD MAIN SECTION QUERY
         justify-content: flex-start;
         flex-wrap: wrap;
     }
+    
 }
 
 @media screen and (min-width:768px){
@@ -234,6 +267,12 @@ TIRD MAIN SECTION QUERY
         display: flex;
         align-items: center;
         justify-content: flex-start;
+    }
+    .tird-section .col-img{
+        width: 30%;
+    }
+    .tird-section .col-text{
+        width: 70%;
     }
 }
 /* =======
@@ -269,3 +308,7 @@ FIFTH MAIN SECTION QUERY
         padding-right: 5rem;
     }
 }
+
+/* =======
+SIXTH MAIN SECTION QUERY
+========= */

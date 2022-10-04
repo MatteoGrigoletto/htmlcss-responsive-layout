@@ -74,5 +74,23 @@
         font-size: 2rem;
         font-weight: bold;
     }
-    
+
+    /* ========
+    SIXTH SECTION
+    ========= */
+
+    .sixth-section p{
+        color: var(--text-footer-color);
+        font-size: 1rem ;
+    }
+    .sixth-section h3{
+        color: var(--main-motive-color);
+        font-size: 5rem;
+        font-weight: bolder;
+    }
+    .sixth-section h4{
+        color: var(--text-color);
+        font-size: 2rem ;
+    }
+   
 
