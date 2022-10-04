@@ -67,14 +67,6 @@ SECOND MAIN SECTION QUERY
 /*========
 TIRD MAIN SECTION QUERY
 ========== */
-@media screen and (max-width:767px){
-    .tird-section .col{
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-    }
-    
-}
 
 @media screen and (min-width:768px){
     main .tird-section .col{
@@ -87,9 +79,13 @@ TIRD MAIN SECTION QUERY
     }
     .tird-section .col-img{
         width: 30%;
+        
     }
     .tird-section .col-text{
         width: 70%;
+        text-align: start;
+        padding-left: .625rem;
+        padding-right: .625rem;
     }
 }
 /* =======
