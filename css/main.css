@@ -6,6 +6,7 @@ MAIN
 /* =======
 FIRST MAIN SECTION
 ======== */
+
 main{
     padding-top: 7.5rem;
 }
@@ -31,9 +32,11 @@ main .first-section .col{
 .first-section .col div:first-child> * {
     padding-bottom: 1.875rem ;
 }
+
 /* =====
 button first section and color col
 ======== */
+
 .first-section button{
     font-size: 1.875rem;
     padding: .625rem 6.25rem .625rem 6.25rem;
@@ -49,6 +52,7 @@ button first section and color col
 /* =======
 SECOND MAIN SECTION
 ========= */
+
 .second-section .col > *{
     padding-bottom: 1rem;
 }
@@ -56,6 +60,7 @@ SECOND MAIN SECTION
 /* =======
 button second-section and color
 ======= */
+
 .second-section button{
     background-color: var(--main-first-color);
     border: none;
@@ -78,6 +83,7 @@ button second-section and color
 /* =======
 TIRD MAIN SECTION
 ========= */
+
 .tird-section .col > *{
     width: 100%;
     text-align: center;
@@ -86,13 +92,16 @@ TIRD MAIN SECTION
     border-radius: 100%;
     width: 12.5rem;
     height: 12.5rem; 
+    object-fit: cover;
 }
 .tird-section p{
     padding-bottom: 1.875rem;
 }
+
 /* ======
 Tird section color
 ========== */
+
 .tird-section .col:not(:first-child){
     background-color: var(--main-first-color);
     color: var(--text-color);
@@ -106,6 +115,7 @@ FOURTH MAIN SECTION
 /* =======
 fourth section button and color
 ========= */
+
  .fourth-section{
     background-color: var(--main-first-color);
  }
@@ -123,29 +133,31 @@ fourth section button and color
 /* =======
 FIFTH MAIN SECTION
 ========= */
-
-.fifth-section .relative {
-    position: relative;
-    width: 40%;
-}
 .fifth-section img{
     border-radius: 100%;
     width: 12.5rem;
     height: 12.5rem;
-}
-.fifth-section .relative i{
-    position: absolute;
-    font-size: 2rem;
-    top: 0;
-    right: 0;
+    object-fit: cover;
 }
 .fifth-section .col {
     padding-bottom: 1.875rem;
+}
+.fifth-section .p-relative {
+    position: relative;
+    width: 12.5rem;
+}
+.fifth-section .p-absolute{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    font-size: 3em;
+    color: var(--main-first-color);
 }
 
 /* =======
 fifth section button and color
 ==========*/
+
 .fifth-section button{
     background-color:var(--main-first-color);
     color: var(--text-color);      
@@ -154,6 +166,7 @@ fifth section button and color
 /* ========
 SIXTH MAIN SECTION 
 ========== */
+
 .sixth-section .col{
     text-align: center;
 }
@@ -161,6 +174,7 @@ SIXTH MAIN SECTION
 .sixth-section .list{
     justify-content: center;
 }
+
 /* ==========
 sixth section button and color
 ========== */
